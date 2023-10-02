@@ -1,9 +1,6 @@
-const liens = document.querySelectorAll(".tabs  li")
-
-$("select").change(function (){
+$("select").on('change', () => {
     let str = ""
-    $("select option:selected").each(function() {
-        str += $(this).text() + " "
+    $("select option:selected").each((index, elem) => {
     })
     $(".affichage").text(str)
 })
