@@ -1,5 +1,9 @@
 const liens = document.querySelectorAll(".tabs  li")
 
+for (const lien of liens) {
+    lien.style.color = "#0000FF"
+}
+
 /*
 for(let indice = 0; indice < liens.length; indice++){
     const lien = liens[indice]
@@ -7,4 +11,4 @@ for(let indice = 0; indice < liens.length; indice++){
 }
 */
 
-$(".tabs li").css('color',"#00FF00")
+// $(".tabs li").css('color',"#00FF00")
