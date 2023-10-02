@@ -5,17 +5,60 @@
     <title>Title</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
     <script src="src/app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div>
-   <select multiple="multiple">
-       <option>Choco</option>
-       <option selected="selected">Chantilly</option>
-       <option>Mousse</option>
-       <option selected="selected">Caramel</option>
-       <option>Cookie</option>
-   </select>
-    <div class="affichage"></div>
+    <ul class="tabs">
+        <li class="active"><a href="#home">Accueil</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">A Propos</a></li>
+    </ul>
+    <div class="tabs-content">
+        <div class="tab-content active" id="home">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            dolores eum facilis obcaecati
+            ratione! Dolor
+            eveniet laborum quibusdam sed voluptas. Deserunt dignissimos dolor ea eaque, et ipsam iste modi perferendis!
+        </div>
+        <div class="tab-content" id="contact">Accusantium amet consequatur cupiditate, fuga ipsa itaque qui quibusdam
+            rerum sint vel!
+            Commodi dignissimos dolor
+            doloremque eaque harum id illo iure labore magnam officia officiis, porro quam similique sunt voluptates?
+        </div>
+        <div class="tab-content" id="about">Accusantium asperiores commodi deserunt dicta doloremque dolores eius eum
+            expedita explicabo
+            facere labore magni
+            molestiae mollitia numquam odio optio quasi quis reprehenderit, tempora ut. Aspernatur esse ipsam neque
+            repudiandae
+            tempore.
+        </div>
+    </div>
+</div>
+<div>
+    <ul class="tabs">
+        <li class="active"><a href="#home2">Accueil</a></li>
+        <li><a href="#contact2">Contact</a></li>
+        <li><a href="#about2">A Propos</a></li>
+    </ul>
+    <div class="tabs-content">
+        <div class="tab-content active" id="home2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            dolores eum facilis obcaecati
+            ratione! Dolor
+            eveniet laborum quibusdam sed voluptas. Deserunt dignissimos dolor ea eaque, et ipsam iste modi perferendis!
+        </div>
+        <div class="tab-content" id="contact2">Accusantium amet consequatur cupiditate, fuga ipsa itaque qui quibusdam
+            rerum sint vel!
+            Commodi dignissimos dolor
+            doloremque eaque harum id illo iure labore magnam officia officiis, porro quam similique sunt voluptates?
+        </div>
+        <div class="tab-content" id="about2">Accusantium asperiores commodi deserunt dicta doloremque dolores eius eum
+            expedita explicabo
+            facere labore magni
+            molestiae mollitia numquam odio optio quasi quis reprehenderit, tempora ut. Aspernatur esse ipsam neque
+            repudiandae
+            tempore.
+        </div>
+    </div>
 </div>
 </body>
 </html>
